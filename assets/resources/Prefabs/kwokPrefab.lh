@@ -1,0 +1,78 @@
+{
+  "_$ver": 1,
+  "_$id": "9njcagvjbf",
+  "_$type": "Box",
+  "name": "Box",
+  "width": 225,
+  "height": 78,
+  "_$child": [
+    {
+      "_$id": "prc4jhuq",
+      "_$type": "Box",
+      "name": "overlay",
+      "width": 225,
+      "height": 78,
+      "alpha": 0.3,
+      "bgColor": "rgba(255, 255, 255, 1)"
+    },
+    {
+      "_$id": "xhnlh1na",
+      "_$type": "Label",
+      "name": "titleLab",
+      "x": 58,
+      "y": 5,
+      "width": 115,
+      "height": 28,
+      "text": "",
+      "fontSize": 22,
+      "color": "#FFFFFF",
+      "align": "center",
+      "valign": "middle",
+      "leading": 2,
+      "padding": "4,0,0,0"
+    },
+    {
+      "_$id": "d1enkjct",
+      "_$type": "Label",
+      "name": "ratioLab",
+      "x": 54,
+      "y": 40,
+      "width": 120,
+      "height": 28,
+      "text": "",
+      "fontSize": 20,
+      "color": "#FFFFFF",
+      "align": "center",
+      "valign": "middle",
+      "leading": 2,
+      "padding": "0,0,0,0"
+    },
+    {
+      "_$id": "lwp6cr7o",
+      "_$prefab": "7e11f4ed-ca68-49ad-976b-8077729872a5",
+      "name": "triangle",
+      "active": true,
+      "x": 167,
+      "y": 33,
+      "visible": true,
+      "_$child": [
+        {
+          "_$override": "0nv7pgeb",
+          "name": "Sprite3"
+        },
+        {
+          "_$override": "fedozxfm",
+          "name": "Sprite1"
+        },
+        {
+          "_$override": "o5lv8h65",
+          "name": "Sprite2"
+        },
+        {
+          "_$override": "qbzw1oib",
+          "name": "Sprite4"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,292 @@
+{
+  "_$ver": 1,
+  "_$id": "kfmbecqpy5",
+  "_$type": "Box",
+  "name": "Box",
+  "width": 420,
+  "height": 600,
+  "mouseEnabled": true,
+  "bgColor": "rgba(117, 116, 100, 1)",
+  "_$comp": [
+    {
+      "_$type": "9e3eb0aa-de2e-42b1-a14e-9c06d9adee1e",
+      "scriptPath": "../src/RoadMapScript.ts"
+    }
+  ],
+  "_$child": [
+    {
+      "_$id": "f8obwyxk",
+      "_$type": "Box",
+      "name": "bgColor",
+      "width": 420,
+      "height": 600,
+      "mouseEnabled": true,
+      "bgColor": "rgba(0, 0, 0, 1)"
+    },
+    {
+      "_$id": "5kyvikl5",
+      "_$type": "Box",
+      "name": "btnBox",
+      "x": 9,
+      "width": 404,
+      "height": 44,
+      "mouseEnabled": true,
+      "top": 0,
+      "_$child": [
+        {
+          "_$id": "h9fzspwf",
+          "_$type": "Button",
+          "name": "roadMapBtn",
+          "x": 7,
+          "y": 6,
+          "width": 130,
+          "height": 34,
+          "mouseEnabled": true,
+          "_filters": [
+            {
+              "_$type": "ColorFilter",
+              "_color": "rgba(194, 180, 112, 1)",
+              "_brightness": 60.725,
+              "_contrast": 44.883,
+              "_saturation": -100,
+              "_hue": -11.882
+            }
+          ],
+          "skin": "res://d4cfd6a8-0d0a-475b-ac93-d85eaa646936",
+          "label": "Roadmap",
+          "labelSize": 18,
+          "labelBold": true,
+          "labelColors": "#0b0c0b,#0a0b0a,#ff0000",
+          "labelVAlign": "middle"
+        },
+        {
+          "_$id": "iglqb3lq",
+          "_$type": "Button",
+          "name": "eoBtn",
+          "x": 283,
+          "y": 6,
+          "width": 110,
+          "height": 34,
+          "mouseEnabled": true,
+          "_filters": [
+            {
+              "_$type": "ColorFilter",
+              "_color": "rgba(54, 54, 54, 1)",
+              "_brightness": 60.725,
+              "_contrast": 44.883,
+              "_saturation": -100,
+              "_hue": -11.882
+            }
+          ],
+          "skin": "res://d4cfd6a8-0d0a-475b-ac93-d85eaa646936",
+          "label": "E/O",
+          "labelSize": 18,
+          "labelColors": "#ffffff,#0a0b0a,#ff0000",
+          "labelVAlign": "middle"
+        }
+      ]
+    },
+    {
+      "_$id": "uhblyfdt",
+      "_$type": "List",
+      "name": "betList",
+      "x": 7,
+      "y": 52,
+      "width": 409,
+      "height": 245,
+      "mouseEnabled": true,
+      "itemTemplate": {
+        "_$ref": "l61051aw",
+        "_$tmpl": "itemRender"
+      },
+      "repeatX": 10,
+      "repeatY": 6,
+      "spaceX": 1,
+      "spaceY": 1,
+      "scrollType": 1,
+      "_$child": [
+        {
+          "_$id": "l61051aw",
+          "_$type": "Box",
+          "name": "circleBox",
+          "width": 40,
+          "height": 40,
+          "_$child": [
+            {
+              "_$id": "gf7a1lh7",
+              "_$type": "Sprite",
+              "name": "circleSprite",
+              "width": 38,
+              "height": 39,
+              "_gcmds": [
+                {
+                  "_$type": "DrawCircleCmd",
+                  "x": 0.5,
+                  "y": 0.5,
+                  "radius": 0.5,
+                  "percent": true,
+                  "lineWidth": 1,
+                  "fillColor": "rgba(115, 115, 115, 1)"
+                }
+              ]
+            },
+            {
+              "_$id": "q2bgvpt7",
+              "_$type": "Label",
+              "name": "number",
+              "width": 38,
+              "height": 39,
+              "text": "1",
+              "fontSize": 28,
+              "color": "#FFFFFF",
+              "align": "center",
+              "valign": "middle",
+              "leading": 2,
+              "padding": "5,0,0,0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_$id": "iovxu5xw",
+      "_$type": "Sprite",
+      "name": "LineSprite",
+      "x": 7,
+      "y": 52,
+      "width": 409,
+      "height": 245,
+      "_gcmds": []
+    },
+    {
+      "_$id": "8j5px44s",
+      "_$type": "Box",
+      "name": "betBox",
+      "y": 305,
+      "width": 420,
+      "height": 295,
+      "mouseEnabled": true,
+      "_$child": [
+        {
+          "_$id": "m8dj08o3",
+          "_$type": "Sprite",
+          "name": "betBoxSprite",
+          "width": 420,
+          "height": 240,
+          "_gcmds": [
+            {
+              "_$type": "DrawLineCmd",
+              "fromX": 0,
+              "fromY": 0,
+              "toX": 420,
+              "toY": 0,
+              "lineWidth": 1,
+              "lineColor": "rgba(109, 109, 109, 1)"
+            },
+            {
+              "_$type": "DrawLineCmd",
+              "fromX": 0,
+              "fromY": 240,
+              "toX": 420,
+              "toY": 240,
+              "lineWidth": 1,
+              "lineColor": "rgba(109, 109, 109, 1)"
+            }
+          ]
+        },
+        {
+          "_$id": "5plxuqv6",
+          "_$type": "List",
+          "name": "betResultList",
+          "x": 4,
+          "y": 8,
+          "width": 415,
+          "height": 225,
+          "visible": false,
+          "mouseEnabled": true,
+          "itemTemplate": {
+            "_$ref": "0oa9dg8e",
+            "_$tmpl": "itemRender"
+          },
+          "repeatX": 1,
+          "repeatY": 10,
+          "spaceY": 2,
+          "scrollType": 2,
+          "_$child": [
+            {
+              "_$id": "0oa9dg8e",
+              "_$type": "Box",
+              "name": "Box",
+              "width": 400,
+              "height": 35,
+              "_$child": [
+                {
+                  "_$id": "jl0xoy7n",
+                  "_$type": "Label",
+                  "name": "betName",
+                  "width": 272,
+                  "height": 35,
+                  "text": "3Fan",
+                  "fontSize": 20,
+                  "color": "#FFFFFF",
+                  "align": "center",
+                  "valign": "middle",
+                  "bgColor": "rgba(66, 65, 70, 1)",
+                  "leading": 2,
+                  "padding": "5,0,0,0"
+                },
+                {
+                  "_$id": "h4k0m4ah",
+                  "_$type": "Label",
+                  "name": "betTotal",
+                  "x": 273,
+                  "width": 128,
+                  "height": 35,
+                  "text": "10\n",
+                  "fontSize": 18,
+                  "color": "rgba(139, 134, 105, 1)",
+                  "align": "center",
+                  "valign": "middle",
+                  "bgColor": "rgba(44, 45, 50, 1)",
+                  "leading": 2,
+                  "padding": "5,0,0,0"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "_$id": "eu0f4ae5",
+          "_$type": "Label",
+          "name": "bets",
+          "x": 12,
+          "y": 251,
+          "width": 80,
+          "height": 25,
+          "text": "Bets",
+          "fontSize": 20,
+          "color": "#FFFFFF",
+          "valign": "middle",
+          "leading": 2,
+          "padding": "0,0,0,0"
+        },
+        {
+          "_$id": "1w1iwqn7",
+          "_$type": "Label",
+          "name": "result",
+          "x": 325,
+          "y": 254,
+          "width": 80,
+          "height": 25,
+          "text": "0",
+          "fontSize": 20,
+          "color": "rgba(111, 110, 86, 1)",
+          "align": "center",
+          "valign": "middle",
+          "leading": 2,
+          "padding": "0,0,0,0"
+        }
+      ]
+    }
+  ]
+}

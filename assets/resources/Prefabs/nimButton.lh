@@ -1,0 +1,53 @@
+{
+  "_$ver": 1,
+  "_$id": "avc15q3p2l",
+  "_$type": "Box",
+  "name": "Box",
+  "width": 225,
+  "height": 78,
+  "_$child": [
+    {
+      "_$id": "k4qp5tho",
+      "_$type": "Box",
+      "name": "overlay",
+      "width": 225,
+      "height": 78,
+      "alpha": 0.3,
+      "bgColor": "rgba(255, 255, 255, 1)"
+    },
+    {
+      "_$id": "1vmdn5or",
+      "_$type": "Label",
+      "name": "titleLab",
+      "x": 80,
+      "y": 12,
+      "width": 80,
+      "height": 28,
+      "centerY": -13,
+      "text": "",
+      "fontSize": 20,
+      "color": "#FFFFFF",
+      "align": "center",
+      "valign": "middle",
+      "leading": 2,
+      "padding": "0,0,0,0"
+    },
+    {
+      "_$id": "iz0mhuxg",
+      "_$type": "Label",
+      "name": "ratioLab",
+      "x": 79,
+      "y": 40,
+      "width": 80,
+      "height": 28,
+      "centerY": 15,
+      "text": "",
+      "fontSize": 20,
+      "color": "#FFFFFF",
+      "align": "center",
+      "valign": "middle",
+      "leading": 2,
+      "padding": "0,0,0,0"
+    }
+  ]
+}

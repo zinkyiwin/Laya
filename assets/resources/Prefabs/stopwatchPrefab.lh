@@ -1,0 +1,193 @@
+{
+  "_$ver": 1,
+  "_$id": "7vo8iczn0e",
+  "_$type": "Box",
+  "name": "Box",
+  "width": 200,
+  "height": 200,
+  "_$comp": [
+    {
+      "_$type": "56342fd4-3902-4058-9cce-e0c8aae958a5",
+      "scriptPath": "../src/StopWatchScript.ts"
+    }
+  ],
+  "_$child": [
+    {
+      "_$id": "01c5qhza",
+      "_$type": "Sprite",
+      "name": "baseSprite",
+      "width": 200,
+      "height": 200,
+      "_gcmds": [
+        {
+          "_$type": "DrawCircleCmd",
+          "x": 0.5,
+          "y": 0.5,
+          "radius": 0.5,
+          "percent": true,
+          "lineWidth": 5,
+          "fillColor": "rgba(0, 0, 0, 1)"
+        }
+      ],
+      "_$comp": [
+        {
+          "_$type": "Animator2D",
+          "controller": {
+            "_$uuid": "3378f5f5-3db9-473c-8dd5-1584efa5c924",
+            "_$type": "AnimationController2D"
+          },
+          "controllerLayers": [
+            {
+              "_$type": "AnimatorControllerLayer2D",
+              "name": "Base Layer",
+              "states": [
+                {
+                  "_$type": "AnimatorState2D",
+                  "name": "CountDown",
+                  "clipStart": 0,
+                  "clip": {
+                    "_$uuid": "0067533f-8b28-4979-af9a-7a9c07d6771a",
+                    "_$type": "AnimationClip2D"
+                  },
+                  "soloTransitions": []
+                }
+              ],
+              "defaultStateName": "CountDown"
+            }
+          ]
+        }
+      ],
+      "_$child": [
+        {
+          "_$id": "vr190kdv",
+          "_$type": "Box",
+          "name": "time",
+          "width": 200,
+          "height": 200,
+          "visible": false,
+          "_$child": [
+            {
+              "_$id": "28v1q2od",
+              "_$type": "Sprite",
+              "name": "insideSprite",
+              "x": 200.0000107179585,
+              "y": 199.99998928204002,
+              "width": 200,
+              "height": 200,
+              "_gcmds": [
+                {
+                  "_$type": "DrawCircleCmd",
+                  "x": 0,
+                  "y": 0,
+                  "radius": 0,
+                  "lineWidth": 0
+                }
+              ]
+            },
+            {
+              "_$id": "g3s6cv9f",
+              "_$type": "Sprite",
+              "name": "timeMask",
+              "width": 200,
+              "height": 200,
+              "_gcmds": [
+                {
+                  "_$type": "DrawCircleCmd",
+                  "x": 0.5,
+                  "y": 0.5,
+                  "radius": 0.48,
+                  "percent": true,
+                  "lineWidth": 5,
+                  "lineColor": "rgba(209, 61, 60, 1)"
+                }
+              ]
+            },
+            {
+              "_$id": "0f0j89sa",
+              "_$type": "Label",
+              "name": "timeLabel",
+              "width": 200,
+              "height": 200,
+              "text": "20",
+              "fontSize": 90,
+              "color": "#FFFFFF",
+              "align": "center",
+              "valign": "middle",
+              "leading": 2,
+              "padding": "0,0,0,0"
+            },
+            {
+              "_$id": "oeqop5eb",
+              "_$type": "Sprite",
+              "name": "newCircle",
+              "x": 100,
+              "y": 100,
+              "width": 200,
+              "height": 200,
+              "anchorX": 0.5,
+              "anchorY": 0.5,
+              "rotation": 360,
+              "_gcmds": [
+                {
+                  "_$type": "DrawCircleCmd",
+                  "x": 0,
+                  "y": 0,
+                  "radius": 0,
+                  "percent": true,
+                  "lineWidth": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "_$id": "ep7cyxde",
+          "_$type": "Box",
+          "name": "waitTime",
+          "width": 200,
+          "height": 200,
+          "visible": false,
+          "_$child": [
+            {
+              "_$id": "w30lbkrx",
+              "_$type": "Image",
+              "name": "Image",
+              "x": 50,
+              "y": 33,
+              "width": 100,
+              "height": 134,
+              "centerX": 0,
+              "centerY": 0,
+              "skin": "res://80ec189d-b4d3-4d98-afa5-c1ba7bb64af5",
+              "sizeGrid": "0,0,0,0,0",
+              "color": "#ffffff"
+            }
+          ]
+        },
+        {
+          "_$id": "oylv83kq",
+          "_$type": "Box",
+          "name": "endTime",
+          "width": 200,
+          "height": 200,
+          "visible": false,
+          "_$child": [
+            {
+              "_$id": "3cb4yvuv",
+              "_$type": "Image",
+              "name": "Image",
+              "x": 50,
+              "y": 33,
+              "width": 100,
+              "height": 134,
+              "centerX": 0,
+              "centerY": 0,
+              "skin": "res://3a214e24-c1e7-47a5-b9c3-a9f15589e4fb",
+              "color": "#ffffff"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

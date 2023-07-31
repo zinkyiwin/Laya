@@ -1,0 +1,272 @@
+[
+    {
+        "name": "Fan",
+        "type": 1,
+        "odds": 2.85,
+        "childs": [
+            {
+                "betName": "1Fan",
+                "win": [1],
+                "lose": [2, 3, 4],
+                "tie": []
+            },
+            {
+                "betName": "2Fan",
+                "win": [2],
+                "lose": [1, 3, 4],
+                "tie": []
+            },
+            {
+                "betName": "3Fan",
+                "win": [3],
+                "lose": [1, 2, 4],
+                "tie": []
+            },
+            {
+                "betName": "4Fan",
+                "win": [4],
+                "lose": [1, 2, 3],
+                "tie": []
+            }
+        ]
+    },
+    {
+        "name": "Nim",
+        "type": 2,
+        "odds": 1.9,
+        "childs": [
+            {
+                "betName": "1Nim2",
+                "win": [1],
+                "lose": [3, 4],
+                "tie": [2]
+            },
+            {
+                "betName": "1Nim3",
+                "win": [1],
+                "lose": [2, 4],
+                "tie": [3]
+            },
+            {
+                "betName": "1Nim4",
+                "win": [1],
+                "lose": [2, 3],
+                "tie": [4]
+            },
+            {
+                "betName": "2Nim1",
+                "win": [2],
+                "lose": [3, 4],
+                "tie": [1]
+            },
+            {
+                "betName": "2Nim3",
+                "win": [2],
+                "lose": [1, 4],
+                "tie": [3]
+            },
+            {
+                "betName": "2Nim4",
+                "win": [2],
+                "lose": [1, 3],
+                "tie": [4]
+            },
+            {
+                "betName": "3Nim1",
+                "win": [3],
+                "lose": [2, 4],
+                "tie": [1]
+            },
+            {
+                "betName": "3Nim2",
+                "win": [3],
+                "lose": [1, 4],
+                "tie": [2]
+            },
+            {
+                "betName": "3Nim4",
+                "win": [3],
+                "lose": [1, 2],
+                "tie": [4]
+            },
+            {
+                "betName": "4Nim1",
+                "win": [4],
+                "lose": [2, 3],
+                "tie": [1]
+            },
+            {
+                "betName": "4Nim2",
+                "win": [4],
+                "lose": [1, 3],
+                "tie": [2]
+            },
+            {
+                "betName": "4Nim3",
+                "win": [4],
+                "lose": [1, 2],
+                "tie": [3]
+            }
+        ]
+    },
+    {
+        "name": "Num",
+        "type": 3,
+        "odds": 0.95,
+        "childs": [
+            {
+                "betName": "Odd",
+                "win": [1, 3],
+                "lose": [2, 4],
+                "tie": []
+            },
+            {
+                "betName": "Even",
+                "win": [2, 4],
+                "lose": [1, 3],
+                "tie": []
+            }
+        ]
+    },
+    {
+        "name": "Kwok",
+        "type": 4,
+        "odds": 0.95,
+        "childs": [
+            {
+                "betName": "2,3Kwok",
+                "win": [2, 3],
+                "lose": [1, 4],
+                "tie": []
+            },
+            {
+                "betName": "1,2Kwok",
+                "win": [1, 2],
+                "lose": [3, 4],
+                "tie": []
+            },
+            {
+                "betName": "1,4Kwok",
+                "win": [1, 4],
+                "lose": [2, 3],
+                "tie": []
+            },
+            {
+                "betName": "3,4Kwok",
+                "win": [3, 4],
+                "lose": [1, 2],
+                "tie": []
+            }
+        ]
+    },
+    {
+        "name": "Nga",
+        "type": 5,
+        "odds": 0.475,
+        "childs": [
+            {
+                "betName": "12Three Nga",
+                "win": [1, 2],
+                "lose": [3],
+                "tie": [4]
+            },
+            {
+                "betName": "12Four Nga",
+                "win": [1, 2],
+                "lose": [4],
+                "tie": [3]
+            },
+            {
+                "betName": "13Two Nga",
+                "win": [1, 3],
+                "lose": [2],
+                "tie": [4]
+            },
+            {
+                "betName": "13Four Nga",
+                "win": [1, 3],
+                "lose": [4],
+                "tie": [2]
+            },
+            {
+                "betName": "14Two Nga",
+                "win": [1, 4],
+                "lose": [2],
+                "tie": [3]
+            },
+            {
+                "betName": "14Three Nga",
+                "win": [1, 4],
+                "lose": [3],
+                "tie": [2]
+            },
+            {
+                "betName": "23One Nga",
+                "win": [2, 3],
+                "lose": [1],
+                "tie": [4]
+            },
+            {
+                "betName": "23Four Nga",
+                "win": [2, 3],
+                "lose": [4],
+                "tie": [1]
+            },
+            {
+                "betName": "24One Nga",
+                "win": [2, 4],
+                "lose": [1],
+                "tie": [3]
+            },
+            {
+                "betName": "24Three Nga",
+                "win": [2, 4],
+                "lose": [3],
+                "tie": [1]
+            },
+            {
+                "betName": "34One Nga",
+                "win": [3, 4],
+                "lose": [1],
+                "tie": [2]
+            },
+            {
+                "betName": "34Two Nga",
+                "win": [3, 4],
+                "lose": [2],
+                "tie": [1]
+            }
+        ]
+    },
+    {
+        "name": "Ssh",
+        "type": 6,
+        "odds": 0.31,
+        "childs": [
+            {
+                "betName": "1,2,3\nSsh",
+                "win": [1, 2, 3],
+                "lose": [4],
+                "tie": []
+            },
+            {
+                "betName": "1,2,4\nSsh",
+                "win": [1, 2, 4],
+                "lose": [3],
+                "tie": []
+            },
+            {
+                "betName": "1,3,4\nSsh",
+                "win": [1, 3, 4],
+                "lose": [2],
+                "tie": []
+            },
+            {
+                "betName": "2,3,4\nSsh",
+                "win": [2, 3, 4],
+                "lose": [1],
+                "tie": []
+            }
+        ]
+    }
+]

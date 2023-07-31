@@ -1,0 +1,39 @@
+{
+  "_$ver": 1,
+  "_$id": "mztdazzmny",
+  "_$type": "Box",
+  "name": "Box",
+  "width": 900,
+  "height": 350,
+  "mouseEnabled": true,
+  "_$child": [
+    {
+      "_$id": "nzkgxo6f",
+      "_$type": "Sprite",
+      "name": "Sprite",
+      "x": 125,
+      "y": 72,
+      "width": 200,
+      "height": 180,
+      "_gcmds": [
+        {
+          "_$type": "DrawPolyCmd",
+          "x": 0,
+          "y": 0,
+          "points": [
+            50,
+            0,
+            210,
+            12,
+            180,
+            180,
+            10,
+            170
+          ],
+          "lineWidth": 1,
+          "lineColor": "rgba(255, 255, 255, 1)"
+        }
+      ]
+    }
+  ]
+}

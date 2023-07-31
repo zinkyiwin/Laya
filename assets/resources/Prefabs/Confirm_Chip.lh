@@ -1,0 +1,217 @@
+{
+  "_$ver": 1,
+  "_$id": "8i18b2r6g1",
+  "_$type": "Box",
+  "name": "Box",
+  "width": 1000,
+  "height": 650,
+  "mouseEnabled": true,
+  "bgColor": "rgba(106, 109, 118, 1)",
+  "_$comp": [
+    {
+      "_$type": "5a42236c-7cf9-439b-8409-eaf2afcc9065",
+      "scriptPath": "../src/ConfirmScript.ts"
+    }
+  ],
+  "_$child": [
+    {
+      "_$id": "2fd7n24l",
+      "_$type": "Box",
+      "name": "navbar",
+      "width": 1000,
+      "height": 60,
+      "bgColor": "rgba(51, 58, 77, 1)",
+      "_$child": [
+        {
+          "_$id": "6v3cmiw4",
+          "_$type": "Label",
+          "name": "Label",
+          "x": 440,
+          "width": 120,
+          "height": 60,
+          "centerX": 0,
+          "centerY": 0,
+          "text": "Chip",
+          "fontSize": 30,
+          "color": "#FFFFFF",
+          "align": "center",
+          "valign": "middle",
+          "leading": 2,
+          "padding": "0,0,0,0"
+        },
+        {
+          "_$id": "8fhwniz9",
+          "_$type": "Label",
+          "name": "text",
+          "x": 1,
+          "y": 59,
+          "width": 1000,
+          "height": 46,
+          "centerX": 1,
+          "text": "Please choose 5-10 chips",
+          "fontSize": 22,
+          "color": "rgba(187, 180, 128, 1)",
+          "align": "center",
+          "valign": "middle",
+          "bgColor": "rgba(32, 34, 55, 1)",
+          "leading": 2,
+          "padding": "0,0,0,0"
+        },
+        {
+          "_$id": "xkkybpkq",
+          "_$type": "Sprite",
+          "name": "closeBtn",
+          "x": 879,
+          "y": -1,
+          "width": 120,
+          "height": 59,
+          "_gcmds": [
+            {
+              "_$type": "DrawPolyCmd",
+              "x": 0,
+              "y": 0,
+              "points": [
+                30,
+                0,
+                0,
+                59,
+                120,
+                59,
+                120,
+                0
+              ],
+              "lineWidth": 1,
+              "fillColor": "rgba(61, 75, 104, 1)"
+            }
+          ],
+          "_$child": [
+            {
+              "_$id": "g396pmrr",
+              "_$type": "Image",
+              "name": "closeIcon",
+              "x": 59,
+              "y": 17,
+              "width": 30,
+              "height": 23,
+              "top": 17,
+              "skin": "res://2ad11c66-0617-49c0-be85-3b5586eb8f57",
+              "sizeGrid": "0,0,0,0,0",
+              "color": "#eff4f9"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_$id": "w22hbbdd",
+      "_$type": "List",
+      "name": "chooseCoinList",
+      "x": 1,
+      "y": 105,
+      "width": 999,
+      "height": 542,
+      "mouseEnabled": true,
+      "bgColor": "rgba(32, 34, 55, 1)",
+      "itemTemplate": {
+        "_$ref": "zyrk484i",
+        "_$tmpl": "itemRender"
+      },
+      "repeatX": 8,
+      "repeatY": 3,
+      "spaceX": 10,
+      "spaceY": 15,
+      "selectEnable": true,
+      "_$child": [
+        {
+          "_$id": "zyrk484i",
+          "_$type": "Box",
+          "name": "Box",
+          "width": 112,
+          "height": 135,
+          "mouseEnabled": true,
+          "_$child": [
+            {
+              "_$id": "9ykca42c",
+              "_$type": "Box",
+              "name": "bgColor",
+              "x": 10,
+              "y": 4,
+              "width": 98,
+              "height": 86,
+              "bgColor": "rgba(55, 68, 99, 1)"
+            },
+            {
+              "_$id": "l3rjt6d3",
+              "_$type": "Image",
+              "name": "border",
+              "x": 6,
+              "y": 4,
+              "width": 104,
+              "height": 88,
+              "alpha": 0.83,
+              "_filters": [],
+              "skin": "res://e35b7b28-f8fa-4620-b200-404b7d1cb4ba",
+              "sizeGrid": "0,0,0,0,0",
+              "color": "#474743"
+            },
+            {
+              "_$id": "eayfzg72",
+              "_$type": "Image",
+              "name": "coin",
+              "x": 13,
+              "y": 8,
+              "width": 90,
+              "height": 80,
+              "skin": "res://98b5a64c-7879-4d47-9b9a-11037957c7ac",
+              "sizeGrid": "0,0,0,0,0",
+              "color": "#ffffff"
+            },
+            {
+              "_$id": "eblxkg4g",
+              "_$type": "CheckBox",
+              "name": "checkBox",
+              "x": 45,
+              "y": 92,
+              "width": 31,
+              "height": 32,
+              "mouseEnabled": true,
+              "_filters": [],
+              "skin": "res://0d814533-b489-4bf0-944a-339d39761993",
+              "label": "",
+              "labelSize": 20,
+              "labelColors": "#b8ac76,#b8ac76,#b8ac76",
+              "labelAlign": "left",
+              "labelVAlign": "middle",
+              "strokeColors": "#aabecb,#c3cbc6,#e0c4c4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_$id": "mbemv1g6",
+      "_$type": "Button",
+      "name": "confirm",
+      "x": 459,
+      "y": 600,
+      "width": 120,
+      "height": 40,
+      "mouseEnabled": true,
+      "_filters": [
+        {
+          "_$type": "ColorFilter",
+          "_color": "rgba(12, 98, 193, 1)",
+          "_brightness": 81.518,
+          "_contrast": 59.404,
+          "_saturation": -100,
+          "_hue": 7.92
+        }
+      ],
+      "skin": "res://d4cfd6a8-0d0a-475b-ac93-d85eaa646936",
+      "label": "Confirm",
+      "labelSize": 20,
+      "labelColors": "#ffffff,#ffffff,#ff0000",
+      "labelVAlign": "middle"
+    }
+  ]
+}

@@ -1,0 +1,195 @@
+{
+  "_$ver": 1,
+  "_$id": "f77eqfmmdx",
+  "_$type": "Box",
+  "name": "Box",
+  "width": 50,
+  "height": 36,
+  "hitArea": {
+    "_$type": "HitArea"
+  },
+  "_$child": [
+    {
+      "_$id": "0nv7pgeb",
+      "_$type": "Sprite",
+      "name": "Sprite0",
+      "width": 25,
+      "height": 36,
+      "_gcmds": [
+        {
+          "_$type": "DrawPolyCmd",
+          "x": 0,
+          "y": 0,
+          "points": [
+            0,
+            0,
+            25,
+            18,
+            0,
+            36
+          ],
+          "lineWidth": 1,
+          "fillColor": "rgba(216, 243, 79, 1)"
+        }
+      ],
+      "hitArea": {
+        "_$type": "HitArea",
+        "_hitCmds": [
+          {
+            "_$type": "DrawPolyCmd",
+            "x": 0,
+            "y": 0,
+            "points": [
+              0,
+              0,
+              25,
+              18,
+              0,
+              36
+            ],
+            "lineWidth": 1
+          }
+        ],
+        "_unHitCmds": []
+      },
+      "_$child": [
+        {
+          "_$id": "g5vln2c7",
+          "_$type": "Label",
+          "name": "Label",
+          "width": 25,
+          "height": 36,
+          "text": "3",
+          "fontSize": 15,
+          "color": "rgba(0, 0, 0, 1)",
+          "align": "center",
+          "valign": "middle",
+          "leading": 2,
+          "padding": "0,5,0,0"
+        }
+      ]
+    },
+    {
+      "_$id": "fedozxfm",
+      "_$type": "Sprite",
+      "name": "Sprite1",
+      "x": 25,
+      "width": 25,
+      "height": 36,
+      "_gcmds": [
+        {
+          "_$type": "DrawPolyCmd",
+          "x": 0,
+          "y": 0,
+          "points": [
+            25,
+            0,
+            0,
+            18,
+            25,
+            36
+          ],
+          "lineWidth": 1,
+          "fillColor": "#FFFFFF"
+        }
+      ],
+      "_$child": [
+        {
+          "_$id": "4vouga8d",
+          "_$type": "Label",
+          "name": "Label",
+          "width": 25,
+          "height": 36,
+          "text": "1",
+          "fontSize": 15,
+          "color": "rgba(0, 0, 0, 1)",
+          "align": "center",
+          "valign": "middle",
+          "leading": 2,
+          "padding": "0,0,0,5"
+        }
+      ]
+    },
+    {
+      "_$id": "o5lv8h65",
+      "_$type": "Sprite",
+      "name": "Sprite2",
+      "width": 50,
+      "height": 18,
+      "_gcmds": [
+        {
+          "_$type": "DrawPolyCmd",
+          "x": 0,
+          "y": 0,
+          "points": [
+            0,
+            0,
+            25,
+            18,
+            50,
+            0
+          ],
+          "lineWidth": 1,
+          "fillColor": "rgba(39, 155, 39, 1)"
+        }
+      ],
+      "_$child": [
+        {
+          "_$id": "0yxj4cda",
+          "_$type": "Label",
+          "name": "Label",
+          "width": 50,
+          "height": 18,
+          "text": "2",
+          "fontSize": 15,
+          "color": "rgba(0, 0, 0, 1)",
+          "align": "center",
+          "valign": "middle",
+          "leading": 2,
+          "padding": "0,0,0,0"
+        }
+      ]
+    },
+    {
+      "_$id": "qbzw1oib",
+      "_$type": "Sprite",
+      "name": "Sprite3",
+      "y": 18,
+      "width": 50,
+      "height": 18,
+      "_gcmds": [
+        {
+          "_$type": "DrawPolyCmd",
+          "x": 0,
+          "y": 0,
+          "points": [
+            0,
+            18,
+            25,
+            0,
+            50,
+            18
+          ],
+          "lineWidth": 1,
+          "fillColor": "rgba(217, 49, 49, 1)"
+        }
+      ],
+      "_$child": [
+        {
+          "_$id": "ziu1jj29",
+          "_$type": "Label",
+          "name": "Label",
+          "width": 50,
+          "height": 18,
+          "text": "4",
+          "fontSize": 15,
+          "color": "rgba(0, 0, 0, 1)",
+          "align": "center",
+          "valign": "middle",
+          "leading": 2,
+          "padding": "4,0,0,0"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "_$ver": 1,
+  "_$id": "j09s2i9cfs",
+  "_$type": "Box",
+  "name": "Box",
+  "width": 100,
+  "height": 40,
+  "_$comp": [
+    {
+      "_$type": "df7cefef-f662-4aa3-a4c9-e70ea4c612cc",
+      "scriptPath": "../src/BetCoinScript.ts"
+    }
+  ],
+  "_$child": [
+    {
+      "_$id": "yxcgo2vi",
+      "_$type": "Image",
+      "name": "coin",
+      "y": 5,
+      "width": 45,
+      "height": 30,
+      "skin": "res://a68aa183-8cbe-4cb2-852f-defd8d5c931f",
+      "color": "#ffffff"
+    },
+    {
+      "_$id": "vh11cx2k",
+      "_$type": "Image",
+      "name": "coinText",
+      "x": 52,
+      "y": 3,
+      "width": 45,
+      "height": 20,
+      "skin": "res://ee74db99-e1cc-4248-ac58-d936a073e181",
+      "color": "#ffffff",
+      "_$child": [
+        {
+          "_$id": "dz0yomz7",
+          "_$type": "Label",
+          "name": "amount",
+          "x": 3,
+          "y": 3,
+          "width": 40,
+          "height": 15,
+          "centerX": 0,
+          "centerY": 0,
+          "text": "10",
+          "fontSize": 15,
+          "color": "#FFFFFF",
+          "align": "center",
+          "valign": "middle",
+          "leading": 2,
+          "padding": "0,0,0,0"
+        }
+      ]
+    }
+  ]
+}
